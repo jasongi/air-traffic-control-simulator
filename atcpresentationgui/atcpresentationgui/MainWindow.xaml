@@ -1,0 +1,49 @@
+﻿<Window x:Class="ATCPresentationGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Airport Traffic Control" Height="700" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Button Content="Next Step >|" Height="23" HorizontalAlignment="Center" Margin="0,0,0,20" Name="buttonNextStep" VerticalAlignment="Bottom" Width="132" Click="buttonNextStep_Click" />
+        <ListBox Height="101" HorizontalAlignment="Center" Margin="0,60,0,0" Name="listBoxAirports" VerticalAlignment="Top" Width="150"  DisplayMemberPath="name" SelectionChanged="listBoxAirports_SelectionChanged" />
+        <Label Content="Airports" Height="28" HorizontalAlignment="Center" Margin="0,35,0,0" Name="label1" VerticalAlignment="Top" Width="150" HorizontalContentAlignment="Center" />
+        <Label Content="Inbound Airplanes" Height="28" HorizontalAlignment="Center" Margin="0,167,0,0" Name="label2" VerticalAlignment="Top" Width="150" HorizontalContentAlignment="Center" />
+        <Label Content="Outbound Airplanes" Height="28" HorizontalAlignment="Center" Margin="0,394,0,0" Name="label3" VerticalAlignment="Top" Width="150" HorizontalContentAlignment="Center" />
+        <Label Content="Airport Traffic Control" Height="28" HorizontalAlignment="Center" Margin="0,12,0,0" Name="label4" VerticalAlignment="Top" Width="151" HorizontalContentAlignment="Center" />
+        <ListView Height="169" HorizontalAlignment="Left" Margin="12,428,0,0" Name="listViewOutbound" VerticalAlignment="Top" Width="755">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" Width="30" DisplayMemberBinding="{Binding ID}" />
+                    <GridViewColumn Header="State" Width="50" DisplayMemberBinding="{Binding State}" />
+                    <GridViewColumn Header="Type" Width="80" DisplayMemberBinding="{Binding Type}" />
+                    <GridViewColumn Header="Remaining Fuel" Width="100" DisplayMemberBinding="{Binding Fuel}" />
+                    <GridViewColumn Header="Speed" Width="50" DisplayMemberBinding="{Binding Speed}" />
+                    <GridViewColumn Header="Route" Width="50" DisplayMemberBinding="{Binding AirRouteID}" />
+                    <GridViewColumn Header="Distance Travelled" Width="110" DisplayMemberBinding="{Binding DistanceT}" />
+                    <GridViewColumn Header="Distance Remaining" Width="110" DisplayMemberBinding="{Binding DistanceR}" />
+                    <GridViewColumn Header="Airport Name" Width="80" DisplayMemberBinding="{Binding AirportName}" />
+                    <GridViewColumn Header="Time Landed" Width="89" DisplayMemberBinding="{Binding TimeLanded}" />
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListView Height="169" HorizontalAlignment="Left" Margin="12,201,0,0" Name="listViewInbound" VerticalAlignment="Top" Width="755"
+                  >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" Width="30" DisplayMemberBinding="{Binding ID}" />
+                    <GridViewColumn Header="State" Width="50" DisplayMemberBinding="{Binding State}" />
+                    <GridViewColumn Header="Type" Width="80" DisplayMemberBinding="{Binding Type}" />
+                    <GridViewColumn Header="Remaining Fuel" Width="100" DisplayMemberBinding="{Binding Fuel}" />
+                    <GridViewColumn Header="Speed" Width="50" DisplayMemberBinding="{Binding Speed}" />
+                    <GridViewColumn Header="Route" Width="50" DisplayMemberBinding="{Binding AirRouteID}" />
+                    <GridViewColumn Header="Distance Travelled" Width="110" DisplayMemberBinding="{Binding DistanceT}" />
+                    <GridViewColumn Header="Distance Remaining" Width="110" DisplayMemberBinding="{Binding DistanceR}" />
+                    <GridViewColumn Header="Airport Name" Width="80" DisplayMemberBinding="{Binding AirportName}" />
+                    <GridViewColumn Header="Time Landed" Width="89" DisplayMemberBinding="{Binding TimeLanded}" />
+                </GridView>
+
+            </ListView.View>
+        </ListView>
+        <Button Content="Reconnect" Height="23" HorizontalAlignment="Center" Margin="0,0,280,20" Name="buttonServerConnect" VerticalAlignment="Bottom" Width="132" Click="buttonServerConnect_Click" />
+    </Grid>
+</Window>

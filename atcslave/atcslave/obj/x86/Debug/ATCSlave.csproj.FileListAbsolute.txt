@@ -1,0 +1,8 @@
+C:\Documents and Settings\Admin\My Documents\Dropbox\!Uni\!!!!!!!!SEM1 2015\Software Components\Ass\ATCSlave\ATCSlave\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\My Documents\Dropbox\!Uni\!!!!!!!!SEM1 2015\Software Components\Ass\ATCSlave\ATCSlave\bin\Debug\ATCSlave.exe
+C:\Documents and Settings\Admin\My Documents\Dropbox\!Uni\!!!!!!!!SEM1 2015\Software Components\Ass\ATCSlave\ATCSlave\bin\Debug\ATCSlave.pdb
+C:\Documents and Settings\Admin\My Documents\Dropbox\!Uni\!!!!!!!!SEM1 2015\Software Components\Ass\ATCSlave\ATCSlave\bin\Debug\ATCMaster.exe
+C:\Documents and Settings\Admin\My Documents\Dropbox\!Uni\!!!!!!!!SEM1 2015\Software Components\Ass\ATCSlave\ATCSlave\bin\Debug\ATCDatabase.dll
+C:\Documents and Settings\Admin\My Documents\Dropbox\!Uni\!!!!!!!!SEM1 2015\Software Components\Ass\ATCSlave\ATCSlave\bin\Debug\ATCMaster.pdb
+C:\Documents and Settings\Admin\My Documents\Dropbox\!Uni\!!!!!!!!SEM1 2015\Software Components\Ass\ATCSlave\ATCSlave\obj\x86\Debug\ATCSlave.exe
+C:\Documents and Settings\Admin\My Documents\Dropbox\!Uni\!!!!!!!!SEM1 2015\Software Components\Ass\ATCSlave\ATCSlave\obj\x86\Debug\ATCSlave.pdb
